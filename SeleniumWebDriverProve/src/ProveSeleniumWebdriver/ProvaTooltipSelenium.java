@@ -20,6 +20,8 @@ public class ProvaTooltipSelenium {
 	
 	private WebDriver driver;
 	
+	//commit nr 3
+	//commit nr 3 
 	@BeforeSuite
     public void initDriver() throws Exception {
         System.out.println("You are testing in chrome");
@@ -62,7 +64,7 @@ public class ProvaTooltipSelenium {
         //save the text in tooltip 
         WebElement toolTipElement = driver.findElement(By.xpath(".//*[@class='box']/div/a"));							
         String actualTooltip = toolTipElement.getText();	
-        Reporter.log("il testo del tooltip è stato salvato");
+        Reporter.log("il testo del tooltip ï¿½ stato salvato");
         
         //compare expected tooltip text with actual tooltip text 
         System.out.println("Actual Title of Tool Tip  "+actualTooltip);							
