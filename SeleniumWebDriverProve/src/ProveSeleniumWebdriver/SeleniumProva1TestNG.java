@@ -21,7 +21,8 @@ public class SeleniumProva1TestNG {
   @Test
   public void Prova1TestNG() throws Exception  {
 	  
-
+      //second commit
+	  //second commit
 	  System.setProperty("webdriver.chrome.driver","C:\\ChromeDriver1\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		Reporter.log("il browser si sta aprendo");
