@@ -22,6 +22,7 @@ public class ProvaTooltipSelenium {
 	
 	//commit nr 3
 	//commit nr 3 
+	//commit nr 5 aggiunto terzo commento 
 	@BeforeSuite
     public void initDriver() throws Exception {
         System.out.println("You are testing in chrome");
